@@ -1,20 +1,25 @@
 #results {
-    border: 1px solid #000;
+    border: 2px solid #f4f4f4;
     width: 800px;
     height: 200px;
     margin: auto;
     border-radius: 4px;
-    font-family: monospace;
     font-size: 18px;
+    margin-bottom: 1rem;
+}
+button{
+    padding: 5px 20px;
 }
 #interim {
-    border: 1px solid #000;
+    border: 2px solid #f4f4f4;
     border-radius: 4px;
-    font-family: monospace;
-    font-size: 18px;
     width: 800px;
     margin: auto;
 }
 body {
     text-align: center;
+    height: 100vh;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    background-repeat: no-repeat;
+    color: #f4f4f4;
 }
